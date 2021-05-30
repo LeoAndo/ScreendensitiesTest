@@ -2,6 +2,7 @@
 Android Studioのテンプレートプロジェクトを作成すると、仮に`minSDKVersion`が高いものに設定したとしても、<br>
 必ずLegacy Iconもデフォルトで追加される。Legacy Icon(pngファイル)を格納しているフォルダはresフォルダ配下の以下のディレクトリ<br>
 - `mipmap-hdpi` , `mipmap-mdpi`、`mipmap-hdpi`, `mipmap-xdpi`, `mipmap-xxdpi`, `mipmap-xxxdpi`<br>
+
 テンプレートからの作成だと、解像度別に作成された不要なアイコンが多すぎるので<br>
 不必要なアイコンを探す目的で本アプリを作成した。<br>
 
