@@ -22,6 +22,8 @@ Android Studioのテンプレートプロジェクトを作成すると、仮に
     - drawable配下の画像は使う解像度以外のファイルはAPKに含まない
     - mipmap配下の画像は全ての解像度のファイルををAPKに含む
     - 画像は拡大するよりも、縮小する方が画質劣化が少ないので、mipmap配下にランチャーアイコンを配置すべき
+- 円形のアイコン`ic_launcher_round`と通常のアイコン`ic_launcher`を２つ用意している理由は、HOMEアプリによっては円形のアイコンをサポートしてない機種があるから。
+    - `AndroidManifest.xml`で２パターンで設定してる: `android:icon="@mipmap/ic_launcher"``android:roundIcon="@mipmap/ic_launcher_round"`
 
 # Capture
 
