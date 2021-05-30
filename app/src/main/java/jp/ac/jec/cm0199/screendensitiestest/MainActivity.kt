@@ -19,9 +19,6 @@ class MainActivity : AppCompatActivity() {
         binding.imageView.setImageResource(R.drawable.ic_launcher)
     }
 
-    /**
-     * 例えば、ピクセル4は440dpiなので、ピクセル密度修飾子はxxhdpiになる。
-     */
     private fun getDisplayScaleText(scale: Float): String {
         return when {
             scale <= Density.LDPI.scale -> {
@@ -48,6 +45,7 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
+    // 解像度の種類.
     enum class Density(val scale: Float, val message: String) {
         LDPI(0.75F, "低密度(ldpi) 0.75倍"),
         MDPI(1.0F, "中密度(mdpi) 1.0倍、基準"),
