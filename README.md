@@ -1,0 +1,2 @@
+# ScreendensitiesTest
+画面ピクセル密度と使うランチャーアイコンの確認用アプリ
