@@ -27,6 +27,7 @@ Android Studioのテンプレートプロジェクトを作成すると、仮に
 
 ## 1080 x 1920 xxhdpi  Nexus 5 API 24
 
+**mipmapは、`xxxhdpi`を使っているのに注目！ 誤植ではない。**
 | drawable | mipmap | home capture | app capture
 |:---|:---:|:---:|:---:|
 | `drawable-xxhdpi` | `mipmap-xxxhdpi` |<img src= "https://user-images.githubusercontent.com/16476224/120109850-2423f400-c1a6-11eb-9cba-3313a601627a.png" width=320 /> |<img src= "https://user-images.githubusercontent.com/16476224/120109852-25edb780-c1a6-11eb-95a9-43651e047e38.png" width=320 /> |
