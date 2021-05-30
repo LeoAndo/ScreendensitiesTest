@@ -8,7 +8,7 @@ Android Studioのテンプレートプロジェクトを作成すると、仮に
 # 環境
 
 本アプリを使った調査は、以下のAndroid Studioのバージョンで作成できるテンプレートプロジェクトをBaseに行っています。<br>
-https://user-images.githubusercontent.com/16476224/120110164-6f8ad200-c1a7-11eb-8da0-cf8b4111a289.png
+<img src="https://user-images.githubusercontent.com/16476224/120110164-6f8ad200-c1a7-11eb-8da0-cf8b4111a289.png" />
 
 # 結論
 - `minSDKVersion`がAPI Level 26以上であれば、どの解像度の端末でも ランチャーアイコンは、`res/mipmap-anydpi-v26/` 配下の`Adaptive Icon`を使う
