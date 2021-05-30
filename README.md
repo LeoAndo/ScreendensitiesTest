@@ -48,6 +48,6 @@ Android Studioのテンプレートプロジェクトを作成すると、仮に
 ホーム長押し > 「ホームの設定」をクリック > 「概要」をクリック > 「バージョン」を確認する
 
 # Links
-[各種のピクセル密度をサポートする](https://developer.android.com/training/multiscreen/screendensities?hl=ja#kotlin)
-[解像度の早見表](https://developer.android.com/training/multiscreen/screendensities?hl=ja#TaskProvideAltBmp)
-[Adaptive Icon](https://developer.android.com/guide/practices/ui_guidelines/icon_design_adaptive?hl=ja)
+[各種のピクセル密度をサポートする](https://developer.android.com/training/multiscreen/screendensities?hl=ja)<br>
+[解像度の早見表](https://developer.android.com/training/multiscreen/screendensities?hl=ja#TaskProvideAltBmp)<br>
+[Adaptive Icon](https://developer.android.com/guide/practices/ui_guidelines/icon_design_adaptive?hl=ja)<br>
