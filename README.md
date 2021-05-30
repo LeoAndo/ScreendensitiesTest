@@ -9,7 +9,7 @@ Android Studioのテンプレートプロジェクトを作成すると、仮に
 - `minSDKVersion`がAPI Level 26以上であれば、どの解像度の端末でも ランチャーアイコンは、`res/mipmap-anydpi-v26/` 配下の`Adaptive Icon`を使う
 - OS ver 8.0未満であれば、`Legacy Icon`を使う
 - `Adaptive Icon`のアニメーションは各端末のホームアプリに依存する。なので、OSver 8.0以上であれば必ずアニメーションが適用されるとは限らない
-    - Pixcelシリーズに入ってるホームアプリの`Pixel Launcher`のVersion `8.1.0-4429924`以上でアニメーションが聞くことを確認済み
+    - Pixcelシリーズに入ってるホームアプリの`Pixel Launcher`のVersion `8.1.0-4429924`以上でアニメーションが効くことを確認済み
     - Ver OMR1-4113793 では、アニメーションされなかった
 - [アプリのランチャーアイコンは必ずmipmap配下に格納する](https://developer.android.com/training/multiscreen/screendensities?hl=ja#mipmap)
     - **ランチャーアイコンは、ホームアプリによっては、デバイスの解像度より25%大きく表示される**。
@@ -23,17 +23,19 @@ Android Studioのテンプレートプロジェクトを作成すると、仮に
 
 | drawable | mipmap | home capture | app capture
 |:---|:---:|:---:|:---:|
-| `drawable-hdpi` | `mipmap-anydpi-v26` |<img src= "" width=320 /> |<img src= "" width=320 /> |
+| `drawable-hdpi` | `mipmap-anydpi-v26` |<img src= "https://user-images.githubusercontent.com/16476224/120109902-66e5cc00-c1a6-11eb-9e00-4cd98cdeeea5.png" width=320 /> |<img src= "https://user-images.githubusercontent.com/16476224/120109905-68af8f80-c1a6-11eb-8919-1b926884d5f3.png" width=320 /> |
 
 ## 1080 x 1920 xxhdpi  Nexus 5 API 24
 
 | drawable | mipmap | home capture | app capture
 |:---|:---:|:---:|:---:|
-| `drawable-xxhdpi` | `mipmap-xxxhdpi` |<img src= "" width=320 /> |<img src= "" width=320 /> |
+| `drawable-xxhdpi` | `mipmap-xxxhdpi` |<img src= "https://user-images.githubusercontent.com/16476224/120109850-2423f400-c1a6-11eb-9cba-3313a601627a.png" width=320 /> |<img src= "https://user-images.githubusercontent.com/16476224/120109852-25edb780-c1a6-11eb-95a9-43651e047e38.png" width=320 /> |
 
 # Capture (Adaptive IconのAnimationが効いてる場合)
 
-<img src= "" width=320 />
+**droid君が動いてることが確認できる！！**
+
+<img src= "https://user-images.githubusercontent.com/16476224/120109978-b4623900-c1a6-11eb-942b-64e0cf42fe6f.gif" width=320 />
 
 # Pixcelシリーズに入ってるホームアプリの`Pixel Launcher`のVersionの確認方法
 
