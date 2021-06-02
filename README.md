@@ -19,8 +19,8 @@ Android Studioのテンプレートプロジェクトを作成すると、仮に
     - Ver OMR1-4113793 では、アニメーションされなかった
 - [アプリのランチャーアイコンは必ずmipmap配下に格納する](https://developer.android.com/training/multiscreen/screendensities?hl=ja#mipmap)
     - **ランチャーアイコンは、ホームアプリによっては、デバイスの解像度より25%大きく表示される**。
-    - drawable配下の画像は使う解像度以外のファイルはAPKに含まない
-    - mipmap配下の画像は全ての解像度のファイルををAPKに含む
+    - drawable配下の画像は使う解像度以外のファイルはAPKに含まない ※[App Bundleでアプリを公開した場合](https://developer.android.com/topic/performance/reduce-apk-size?hl=ja)
+    - mipmap配下の画像は全ての解像度のファイルをAPKに含む ※ App Bundle形式であっても。
     - 画像は拡大するよりも、縮小する方が画質劣化が少ないので、mipmap配下にランチャーアイコンを配置すべき
 - 円形のアイコン`ic_launcher_round`と通常のアイコン`ic_launcher`を２つ用意している理由は、HOMEアプリによっては円形のアイコンをサポートしてない機種があるから。
     - `AndroidManifest.xml`で２パターンで設定してる: `android:icon="@mipmap/ic_launcher"``android:roundIcon="@mipmap/ic_launcher_round"`
