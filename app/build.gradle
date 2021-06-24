@@ -9,11 +9,8 @@ android {
 
     defaultConfig {
         applicationId "jp.ac.jec.cm0199.screendensitiestest"
-        minSdkVersion 23
+        minSdkVersion 24
         targetSdkVersion 30
-        versionCode 1
-        versionName "1.0"
-
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
 
@@ -45,11 +42,15 @@ android {
             dimension "version"
             applicationIdSuffix ".apk"
             // versionNameSuffix "-apk"
+            versionCode 2
+            versionName "1.0"
         }
         appbundle {
             dimension "version"
             applicationIdSuffix ".appbundle"
             // versionNameSuffix "-appbundle"
+            versionCode 1
+            versionName "1.0"
         }
     }
 }

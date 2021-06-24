@@ -23,19 +23,19 @@ class MainActivity : AppCompatActivity() {
                 getString(R.string.ldpi_message, scale)
             }
             scale <= Density.MDPI.scale -> {
-                getString(R.string.mdpi_message)
+                getString(R.string.mdpi_message, scale)
             }
             scale <= Density.HDPI.scale -> {
-                getString(R.string.hdpi_message)
+                getString(R.string.hdpi_message, scale)
             }
             scale <= Density.XHDPI.scale -> {
-                getString(R.string.xhdpi_message)
+                getString(R.string.xhdpi_message, scale)
             }
             scale <= Density.XXHDPI.scale -> {
-                getString(R.string.xxhdpi_message)
+                getString(R.string.xxhdpi_message, scale)
             }
             scale <= Density.XXXHDPI.scale -> {
-                getString(R.string.xxxhdpi_message)
+                getString(R.string.xxxhdpi_message, scale)
             }
             else -> {
                 throw IllegalArgumentException("unknown...")

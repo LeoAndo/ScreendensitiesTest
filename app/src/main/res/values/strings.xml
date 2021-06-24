@@ -4,6 +4,6 @@
     <string name="mdpi_message">%f : medium-density(mdpi) 1.0 times, base</string>
     <string name="hdpi_message">%f : high-density(hdpi) 1.5 times</string>
     <string name="xhdpi_message">%f : extra-high-density(xhdpi) 2.0 times</string>
-    <string name="xxhdpi_message">extra-extra-high-density(xxhdpi) 3.0 times</string>
-    <string name="xxxhdpi_message">extra-extra-extra-high-density(xxxhdpi) 4.0 times</string>
+    <string name="xxhdpi_message">%f : extra-extra-high-density(xxhdpi) 3.0 times</string>
+    <string name="xxxhdpi_message">%f : extra-extra-extra-high-density(xxxhdpi) 4.0 times</string>
 </resources>
