@@ -26,7 +26,7 @@ Android Studioのテンプレートプロジェクトを作成すると、仮に
     - `AndroidManifest.xml`で２パターンで設定してる: `android:icon="@mipmap/ic_launcher"``android:roundIcon="@mipmap/ic_launcher_round"`
 
 # mipmapとdrawableについて
-[ドキュメント](https://github.com/LeoAndo/ScreendensitiesTest/blob/main/document/mipmap%E3%81%A8drawable%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6.key)<br>
+[ドキュメント](https://github.com/LeoAndo/ScreendensitiesTest/blob/main/document/about_mipmap_and_drawable_directory.key)<br>
 
 <img width="1379" alt="スクリーンショット 2021-06-24 22 10 04" src="https://user-images.githubusercontent.com/16476224/123268809-591f2e80-d539-11eb-9169-1e4913194bfd.png">
 <img width="1380" alt="スクリーンショット 2021-06-24 22 10 18" src="https://user-images.githubusercontent.com/16476224/123268820-5ae8f200-d539-11eb-8672-2ffa4da88299.png">
