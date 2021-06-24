@@ -1,0 +1,8 @@
+<resources>
+    <string name="ldpi_message">%f : 低密度(ldpi) 0.75倍</string>
+    <string name="mdpi_message">%f : 中密度(mdpi) 1.0倍、基準</string>
+    <string name="hdpi_message">%f : 高密度(hdpi) 1.5倍</string>
+    <string name="xhdpi_message">%f : 超高密度(xhdpi) 2.0倍</string>
+    <string name="xxhdpi_message">超超高密度(xxhdpi) 3.0倍</string>
+    <string name="xxxhdpi_message">超超超高密度(xxxhdpi) 4.0倍</string>
+</resources>
