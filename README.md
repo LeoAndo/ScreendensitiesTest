@@ -28,9 +28,8 @@ Android Studioのテンプレートプロジェクトを作成すると、仮に
 # mipmapとdrawableについて
 [詳細はこちら](https://github.com/LeoAndo/ScreendensitiesTest/blob/main/document/about_mipmap_and_drawable_directory.key)<br>
 
-<img width="1379" alt="スクリーンショット 2021-06-24 22 10 04" src="https://user-images.githubusercontent.com/16476224/123268809-591f2e80-d539-11eb-9169-1e4913194bfd.png">
-<img width="1380" alt="スクリーンショット 2021-06-24 22 10 18" src="https://user-images.githubusercontent.com/16476224/123268820-5ae8f200-d539-11eb-8672-2ffa4da88299.png">
-
+# アプリ公開形式を変えてアプリをリリースし、APKファイルの最適化を検証 (decompile)
+[詳細はこちら](https://github.com/LeoAndo/ScreendensitiesTest/blob/main/document/about_mipmap_and_drawable_directory.key)<br>
 
 # Capture
 
