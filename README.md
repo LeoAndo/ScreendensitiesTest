@@ -49,7 +49,7 @@ gradleのバージョンをアップしたのでAndroid Studio Koalaでプロジ
 
 ## 1080 x 2424 xxhdpi  Pixel 9 Pro Fold API 35
 **mipmapフォルダを全削除したテスト。スプラッシュに表示されるアイコンはデフォルトでランチャーアイコンが適用されるがxxxhdpiが適用されているのが面白い**
-| ランチャーアイコン(xxhdpi) | OS12以降で出すスプラッシュアイコン(xxxhdpi) | 画面 | -
+| ランチャーアイコン(xxhdpi) | OS12以降で出すスプラッシュアイコン(xxxhdpi) | 画面(xxhdpi) | -
 |:---|:---:|:---:|:---:|
 | <img src= "screenshot/fold1.png" width=320 /> | <img src= "screenshot/fold2.png" width=320 /> |<img src= "screenshot/fold3.png" width=320 /> | - |
 
