@@ -46,6 +46,13 @@ Android Studioのテンプレートプロジェクトを作成すると、仮に
 |:---|:---:|:---:|:---:|
 | `drawable-xxhdpi` | `mipmap-xxxhdpi` |<img src= "https://user-images.githubusercontent.com/16476224/120109852-25edb780-c1a6-11eb-95a9-43651e047e38.png" width=320 /> |<img src= "https://user-images.githubusercontent.com/16476224/120109850-2423f400-c1a6-11eb-9cba-3313a601627a.png" width=320 /> |
 
+## 1080 x 2424 xxhdpi  Pixel 9 Pro Fold API 35
+**mipmapフォルダを全削除したテスト。スプラッシュに表示されるアイコンはデフォルトでランチャーアイコンが適用されるがxxxhdpiが適用されているのが面白い**
+| ランチャーアイコン(xxhdpi) | OS12以降で出すスプラッシュアイコン(xxxhdpi) | 画面 | -
+|:---|:---:|:---:|:---:|
+| <img src= "screenshot/fold1.png" width=320 /> | <img src= "screenshot/fold2.png" width=320 /> |<img src= "screenshot/fold3.png" width=320 /> | - |
+
+
 # Capture (Adaptive IconのAnimationが効いてる場合)
 
 **droid君が動いてることが確認できる！！**
