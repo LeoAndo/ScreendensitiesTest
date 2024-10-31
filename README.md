@@ -9,6 +9,7 @@ Android Studioのテンプレートプロジェクトを作成すると、仮に
 # 環境
 
 本アプリを使った調査は、以下のAndroid Studioのバージョンで作成できるテンプレートプロジェクトをBaseに行っています。<br>
+gradleのバージョンをアップしたのでAndroid Studio Koalaでプロジェクトを実行できます。<br>
 <img src="https://user-images.githubusercontent.com/16476224/120110164-6f8ad200-c1a7-11eb-8da0-cf8b4111a289.png" />
 
 # 結論
